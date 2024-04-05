@@ -1,0 +1,66 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #111;
+}
+.navbar{
+    background-color: #111;
+}
+
+.navbar .navbar-brand{
+    opacity: 0.8;
+    color: #f5f5f7;
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar .navbar-nav:hover{
+    color: #14c;
+}
+
+.navbar .navbar-nav .navbar-item a{
+    opacity: 0.8;
+    font-size: 13px;
+    color: #f5f5f7;
+    font-weight: 600;
+    margin-left: 25px;
+}
+
+.navbar .navbar-nav .navbar-item a:hover{
+    color: #f5f5f7;
+}
+
+.landing-sec{
+    height: 100vh;
+    margin-top: 150px;
+}
+
+.landing-sec h3{
+    color: #f5f5f7;
+    font-size: 18px;
+    font-weight: 600;
+}
+.landing-sec h1{
+    font-size: 72px;
+    font-weight: 700;
+    color: #f5f5f7;
+}
+
+.landing-sec h1 span{
+    background-image: linear-gradient(to right, #0d8cdc,#1180ab);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.landing-sec p{
+    color: #a1a1a1a1;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.landing-sec .btn{
+    background-image: linear-gradient(to right, #0d8cdc,#1180ab);
+    color: #fafafa;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+}
